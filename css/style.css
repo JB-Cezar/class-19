@@ -102,7 +102,36 @@ main > section:nth-child(odd) {
     summary{
         font-size: 26px;
     }
-    
+    /* HEADER */
+    header{
+        height: 24vh;
+        color: white;
+    }
+    header > section{
+        align-items: center;
+        justify-content: center;
+        row-gap: 5vh;
+    }
+    header aside{
+        display: flex;
+        flex-direction: column;
+        row-gap: 2vh;
+    }
+    header a{
+        background-color: darkorange;
+        color: whitesmoke;
+        padding: 2%;
+        text-transform: uppercase;
+        width: 30%;
+        font-weight: 700;
+    }
+    header h2{
+        font-size: 20px;
+    }
+    header h1,
+    header h2{
+        text-transform: uppercase;
+    }
     main > section {
         padding-top: 10vh;
         padding-bottom: 10vh;
